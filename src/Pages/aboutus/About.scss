@@ -1,0 +1,32 @@
+$text-color: #707070;
+$blue: #2D8EFF;
+
+.who-we-are {
+    padding:0 6vw;
+    h2 {
+        span{
+            color: $blue;
+        }
+        font-weight: 400;
+        font-size: 1.7vw;
+        color: #363345;
+        padding: 1vw 0;
+    }
+    .description{
+        padding: 1vw 0;
+        color: $text-color;
+        font-size: 1.2vw;
+        line-height: 1.4vw;
+        padding-bottom: 6vw;
+    }
+    @media screen and (max-width:480px) {
+        h2{
+            font-size: 1.7rem;
+            padding: 1rem 0;
+        }
+        .description{
+            font-size: 1.1rem;
+            line-height: 1.3rem;
+        }
+    }
+}

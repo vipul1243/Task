@@ -1,0 +1,411 @@
+.sf-header-parent {
+    width: 100%;
+    height: 15vw;
+    background: #2D8EFF;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.sf-header {
+    position: relative;
+    top: 23%;
+}
+
+.sf-header img {
+    width: 15vw;
+}
+
+.sf-contact-details {
+    position: relative;
+    top: 23%;
+    margin-right: 2vw;
+}
+
+.sf-contact-details p {
+    font-size: 1.2vw;
+    color: white;
+    font-family: 'Aril', sans-serif;
+    text-align: right;
+
+
+}
+
+.sf-form-parent {
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.sf-register-profile-img-parent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sf-register-field {
+    display: flex;
+    align-items: flex-start;
+
+}
+
+.sf-register-profile-img-parent img {
+    width: 15vw;
+    height: 15vw;
+    margin-right: 2vw;
+    margin-top: 4vw;
+
+
+}
+
+.sf-register-field p {
+    margin-top: 2vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+.sf-form-text {
+    font-size: 1vw;
+    font-family: 'Aril', sans-serif;
+}
+
+.sf-register-field input[type=text] {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+
+/*---------------------- Course Duration ---------------------- */
+.sf-course-section {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: space-between;
+    margin-right: 4vw;
+}
+
+
+.sf-course-radio-button-form span {
+    display: inline-block;
+    margin-left: 3vw;
+    margin-top: 2vw;
+    margin-right: 1vw;
+}
+
+.sf-course-radio-button-form label {
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    text-align: right;
+    margin-left: -1vw;
+}
+
+.sf-course-mode-section {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: space-between;
+    margin-right: 4vw;
+}
+
+.sf-course-mode-radio-button-form {
+    margin-top: 4.5vw;
+
+}
+
+
+.sf-name-of-examination {
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.sf-name-of-examination p {
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    margin-right: 2vw;
+}
+
+.sf-name-of-examination input[type=text] {
+    width: 30vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+.sf-name-of-subject {
+    display: flex;
+    margin-top: 1vw;
+    margin-left: 3vw;
+
+}
+
+.sf-name-of-subject input[type=text] {
+    width: 36vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+.sf-student-name {
+    margin-left: 2vw;
+    display: flex;
+}
+
+.sf-student-name input[type=text] {
+    width: 87vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+
+
+.sf-date-of-birth {
+    margin-left: 2vw;
+    display: flex;
+}
+
+.sf-date-of-birth p {
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    margin-right: 2vw;
+}
+
+.sf-date-of-birth input[type=text] {
+    width: 20vw;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+.sf-date-of-birth span {
+    display: inline-block;
+    margin-left: 2vw;
+    margin-top: 2vw;
+    margin-right: 2vw;
+}
+
+.sf-date-of-birth label {
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    text-align: right;
+    
+}
+
+
+
+.sf-father-name {
+    margin-left: 2vw;
+    display: flex;
+}
+
+.sf-father-name input[type=text] {
+    width: 83vw;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+
+.sf-result-heading-parent {
+    display: flex;
+    margin-top: 2vw;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.sf-result-heading {
+    justify-content: space-between;
+}
+
+.sf-result-heading-parent p1 {
+    font-size: 1vw;
+    font-family: 'Poppins';
+    font-weight: 900;
+    margin-top: 5vw;
+    margin-right: 6vw;
+    margin-left: 4vw;
+
+}
+
+
+
+.sf-result-border{
+    width: 100%;
+    height: 0.1vw;
+    margin-top: 2vw;
+    background: #ccc;
+}
+.sf-result-border-2{
+    width: 100%;
+    height: 0.1vw;
+    margin-top: 1vw;
+    background: #ccc;
+}
+
+
+
+.sf-marking{
+    width: 15%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+
+}
+.sf-marking p1 {
+    font-size: 0.8vw;
+    font-family: 'Poppins';
+    font-weight: 900;
+    
+}
+.sf-result-fields{
+    margin-right: 6vw;
+    display: flex;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+    justify-content: space-between;
+    
+}
+
+.sf-result-fields input[type=text] {
+    width: 10vw;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+    
+}
+
+
+
+
+
+.sf-know-about-us {
+    display: flex;
+    margin-left: 2vw;
+    margin-top: 1vw;
+}
+
+.sf-know-about-us p {
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    margin-right: 2vw;
+}
+
+.sf-know-about-us input[type=text] {
+    width: 75vw;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+.sf-registration-procedure{
+    margin-top: 3vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+.sf-registration-procedure p1{
+    margin-top: 5vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+   
+    font-weight: 900;  
+}
+.sf-registration-procedure p{
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;   
+}
+
+
+.sf-declaration{
+    margin-top: 3vw;
+    margin-right: 4vw;
+    margin-left: 4vw;
+    justify-content: center;
+    align-items: center;
+
+}
+.sf-declaration p1{
+    margin-top: 5vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    font-weight: 900;  
+}
+.sf-declaration p{
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;   
+}
+
+
+.sf-date-place-parent {
+    display: flex;
+    margin-left: 2vw;
+    margin-right: 4vw;
+    margin-top: 1vw;
+    justify-content: space-between;
+}
+
+.sf-date-place-parent p {
+    margin-top: 2vw;
+    font-size: 1.2vw;
+    font-family: 'Aril', sans-serif;
+    margin-right: 2vw;
+}
+
+.sf-date-place-parent input[type=text] {
+    width: 20vw;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 0.1vw solid black;
+    font-weight: 900;
+    font-size: 1.1vw;
+}
+
+.sf-paynow{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4vw;
+    margin-top: 3vw;
+    
+}
+
+.sf-paynow button {
+    display: flex;
+    width: 10vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5.5vw;
+    font-weight: 900;
+    font-size: 0.9vw;
+    color: white;
+    padding: 0.6vw;
+    background-color: #2F4E71;
+
+}

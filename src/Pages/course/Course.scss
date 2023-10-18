@@ -1,0 +1,56 @@
+$theme-color: #202C45;
+$text-color: #363345;
+$blue: #2D8EFF;
+$light-bg: #EEE;
+$light-text: #989696;
+
+.course-page {
+
+    .detail {
+        left: 6vw;
+        right: unset;
+
+        h2 {
+            position: absolute;
+            right: 0;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    .course-page-section {
+        display: flex;
+        padding: 0 3vw;
+
+    }
+
+    .course-idea {
+        padding: 1vw 3vw;
+
+        h2 {
+            font-weight: 400;
+            color: #363345;
+            font-size: 1.7vw;
+        }
+    }
+@media screen and (max-width:"480px") {
+    
+        .course-page-section {
+            flex-direction: column;
+            padding: 0 vw;
+    
+        }
+    
+        .course-idea {
+            padding: 1vw 3vw;
+    
+            h2 {
+                font-size: 1.7rem;
+            }
+        }
+    
+    
+}
+}

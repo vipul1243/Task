@@ -1,0 +1,151 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+
+.app {
+
+    .theme-bg{
+        background-color: $theme-color;
+    }
+
+    .top-links {
+        background-color: $blue;
+        @media screen and (max-width:"540px") {
+            font-size: .8rem;
+        }
+    }
+
+    .nav-link{
+        background-color: #24497c;        
+    }
+    .nav-link:hover{
+        background-color: #fff;
+        color: #000 !important;
+    }
+    .dropdown-menu li a:hover{
+        background:rgb(225, 225, 225);
+        color: #000;
+    }
+    .new-batch{
+        background: $blue !important;
+        a{
+            background-color: $blue ;
+        }
+    }
+    
+
+
+    .contact {
+        @media screen and (max-width:"540px") {
+
+            span,
+            p {
+                font-size: .7rem;
+            }
+
+        }
+    }
+
+    .hero-section {
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+        // @media screen and (max-width:"540px"){
+        // }
+    }
+
+    .hero-detail {
+        color: #fff;
+        top: 12rem;
+        right: 5rem;
+
+        .d1 {
+            font-size: 4rem;
+            background-color: rgba(62, 55, 55);
+            padding: 0 15px;
+            margin-bottom: 5px;
+            border-right: 5px solid $blue;
+        }
+
+        .d2 {
+            font-size: 2rem;
+            background-color: rgba(62, 55, 55);
+            ;
+            padding: 0 15px;
+            margin-left: 20%;
+            width: 80%;
+
+        }
+
+        .d3 {
+            font-size: 1.1rem;
+            margin: -15px 0;
+            margin-left: 18%;
+        }
+
+        .d4 {
+            font-size: 1.1rem;
+            margin: -15px 0;
+            margin-left: 55%;
+        }
+
+        @media screen and (max-width:"560px") {
+            top: 20%;
+            right: 0;
+            width: 60%;
+
+            .d1 {
+                font-size: 1.2rem;
+            }
+
+            .d2 {
+                font-size: .7rem;
+            }
+
+            .d3,
+            .d4 {
+                font-size: .4rem;
+                padding: 0.1rem 0;
+            }
+        }
+    }
+
+    .register {
+        background-color: $theme-color;
+
+        .register-form {
+            display: flex;
+            justify-content: center;
+        }
+
+        input,
+        select,
+        button {
+            padding: 10px;
+            margin: 10px;
+            width: 15rem;
+        }
+    }
+    .blue{
+        color: $blue;
+    }
+    .blue-bg{
+        background: $blue;
+    }
+    .blue-border{
+        border-color: $blue !important;
+    }
+    .statistics{
+        div{
+            transform: scale(1.1);
+            svg{
+                transform: scale(1.2);
+            }
+        }
+    }
+    .footer-color{
+        background-color: #243C58;
+    }
+}

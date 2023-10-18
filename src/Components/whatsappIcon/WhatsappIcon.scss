@@ -1,0 +1,32 @@
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  padding: .1vw;
+  cursor: pointer;
+  animation: pulse 1.5s infinite;
+  background-color: transparent;
+
+  img {
+    width: 3rem;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.whatsapp-icon:hover {
+  animation-play-state: paused;
+}

@@ -1,0 +1,47 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+
+.hero-section {
+    position: relative;
+
+    .heroimage {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .detail {
+        font-family: 'Poppins';
+        position: absolute;
+        top: 17vw;
+        right: 6vw;
+        color: #fff;
+
+        h1 {
+            font-size: 4vw;
+            background-color: #363345;
+            padding: 1vw;
+            border-right: .4vw solid $blue;
+            font-weight: 500;
+        }
+
+        h2 {
+            background-color: #363345;
+            margin: 5px 0;
+            padding: .5vw;
+            font-size: 2vw;
+            width: 30vw;
+            right: 0;
+            font-weight: 500;
+            text-align: end;
+        }
+
+        p {
+            font-size: 1vw;
+            text-align: end;
+        }
+    }
+}  

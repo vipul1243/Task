@@ -1,0 +1,132 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+
+.welcome-section {
+    padding: 6vw;
+    display: flex;
+
+    .message {
+        width: 20vw;
+
+        h1 {
+            font-weight: 400;
+            font-size: 1.6vw;
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 1.6vw;
+            color: $blue;
+            padding: .7vw 0;
+            // border-bottom: 2px solid $blue;
+        }
+
+        h3 {
+            padding: 1vw 0;
+            font-weight: 400;
+            color: #9A9696;
+            font-size: 1.2vw;
+        }
+
+        h4 {
+            font-weight: 400;
+            font-size: 1.15vw;
+        }
+
+        button {
+            background: $theme-color;
+            color: #fff;
+            padding: .6vw .8vw;
+            font-size: 1vw;
+            margin-top: 2vw;
+        }
+
+    }
+
+    .cards {
+        width: 60vw;
+        margin: 0 auto;
+        display: flex;
+
+        .welcome-card {
+            padding: 0 2.45vw;
+
+            img {
+                width: 17vw;
+            }
+
+            div {
+                h2 {
+                    font-weight: 400;
+                    padding: 1vw 0;
+                    font-size: 1.3vw;
+                }
+
+                p {
+                    color: #9A9696;
+                    font-size: 1vw;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:"480px") {
+        flex-direction: column;
+
+        .message {
+            width: unset;
+
+            h1,
+            p {
+                font-size: 2rem;
+
+            }
+
+            h3 {
+                font-size: 1.1rem;
+                padding-top: 1rem;
+            }
+
+            h4 {
+                font-size: 1.1rem;
+                padding: 1rem 0;
+            }
+
+            button {
+                padding: .6vw .8vw;
+                font-size: 1.3rem;
+                margin: 1rem 0;
+            }
+        }
+
+        .cards {
+            width: unset;
+            margin: 0 auto;
+            flex-direction: column;
+
+            .welcome-card {
+                padding: 1rem 0;
+
+                img {
+                    width: unset;
+                }
+
+                div {
+                    h2 {
+                        padding: .5rem 0;
+                        font-size: 1.3rem;
+                    }
+
+                    p {
+                        color: #9A9696;
+                        font-size: 1rem;
+                    }
+                }
+            }
+        }
+
+    }
+}

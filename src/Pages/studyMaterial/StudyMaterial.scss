@@ -1,0 +1,50 @@
+$theme-color: #202C45;
+$text-color: #363345;
+$blue: #2D8EFF;
+$light-bg: #EEE;
+$light-text: #989696;
+
+.study-material-page {
+    .detail {
+        left: 6vw;
+        right: unset;
+
+        h1{
+            width: 43vw;
+            text-align: end;
+        }
+
+        h2 {
+            position: absolute;
+            right: 0;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    .study-material-section{
+        display: flex;
+        padding: 0 3vw;
+
+    }
+
+    .course-idea {
+        padding: 1vw 3vw;
+
+        h2 {
+            font-weight: 400;
+            color: #363345;
+            font-size: 1.7vw;
+        }
+    }
+    @media screen and (max-width:480px) {
+        
+            .study-material-section{
+                flex-direction: column;
+        
+            }
+        
+    }
+}

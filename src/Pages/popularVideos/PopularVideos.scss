@@ -1,0 +1,23 @@
+$blue: #2D8EFF;
+$light-bg:#eee;
+.popular-videos-section {
+    padding: 6vw;
+    h2 {
+        span{
+            color: $blue;
+        }
+        font-weight: 400;
+        font-size: 1.7vw;
+        color: #363345;
+        padding: 1vw 0;
+    }
+    .video-cards{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        .video-card{
+            background-color: $light-bg;
+            margin: 1vw 0;
+        }
+    }
+}

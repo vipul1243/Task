@@ -1,0 +1,242 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;500&family=Poppins:wght@300&display=swap');
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: $theme-color;
+    padding: 5vw 6vw;
+    color: #fff;
+
+    .detail {
+        width: 20vw;
+
+        &>img {
+            margin-left: -1vw;
+            width: 18vw;
+        }
+
+        .message {
+            font-family: 'Poppins';
+            line-height: 1.5vw;
+            font-size: 1.1vw;
+        }
+
+        .footer-icons {
+            
+            img {
+                background-color: $blue;
+                margin: 1vw .4vw;
+                padding: .4vw;
+                border-radius: 50%;
+                width: 2.2vw;
+            }
+        }
+    }
+
+    .courses {
+        margin-top: 1vw;
+
+        h4 {
+            font-family: 'Poppins';
+            font-weight: 700;
+            margin: 1vw 0;
+            letter-spacing: .1vw;
+            font-size: 1.3vw;
+        }
+
+        li {
+            font-family: 'Poppins';
+            font-size: 1.1vw;
+            padding: .5vw 0;
+        }
+
+
+    }
+
+    .links {
+        margin-top: 1vw;
+
+        h4 {
+            font-family: 'Poppins';
+            font-weight: 700;
+            margin: 1vw 0;
+            letter-spacing: .1vw;
+            font-size: 1.3vw;
+        }
+
+        img {
+            width: 1.1vw;
+            font-size: 1.1vw;
+            margin-right: .4vw;
+        }
+
+        a {
+            font-family: 'Poppins';
+            line-height: 2.5rem;
+            font-size: 1.2vw;
+        }
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.1vw;
+        background-color: $blue;
+        margin: 2vw;
+        width: 20vw;
+        height: 17vw;
+
+        img {
+            background-color: #fff;
+            width: 3vw;
+            height: 3vw;
+            padding: .4vw;
+            border-radius: 10vw;
+            margin-right: 1vw;
+        }
+
+        .h1 {
+            margin-bottom: .5vw;
+            font-size: 1.1vw;
+        }
+        .h2{
+            font-size: 1.3vw;
+        }
+    }
+
+    @media screen and (max-width:"480px") {
+
+        padding: 5vw 6vw;
+        flex-direction: column;
+
+        .detail {
+            width: unset;
+
+            &>img {
+                margin-left: -1rem;
+                width: unset;
+            }
+
+            .message {
+                line-height: 1.3rem;
+                font-size: 1rem;
+            }
+
+            .footer-icons {
+                img {
+                    margin: 1rem 0;
+                    margin-right: .4rem;
+                    padding: .3rem;
+                    border-radius: 12px;
+                    width: 2rem;
+                }
+            }
+        }
+
+        .courses {
+            margin-top: 1rem;
+
+            h4 {
+                margin: 1rem 0;
+                font-size: 2rem;
+            }
+
+            li {
+                font-size: 1.5rem;
+            }
+
+
+        }
+
+        .links {
+            margin-top: 1rem;
+
+            h4 {
+                margin: 1rem 0;
+                font-size: 2rem;
+            }
+
+            img {
+                width: 1rem;
+                font-size: 1rem;
+                margin-right: .4rem;
+            }
+
+            a {
+                font-size: 1.5rem;
+            }
+        }
+
+        .box {
+            font-size: 1rem;
+
+            img {
+                width: 3rem;
+                height: 3rem;
+                padding: .4rem;
+                border-radius: 10rem;
+                margin-right: 1rem;
+            }
+
+            width: unset;
+            height: 15rem;
+            margin-left: -.1rem;
+        }
+
+
+    }
+}
+
+.bottom-footer {
+    background-color: #243C58;
+    padding: 1vw 6vw;
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+
+    .bottom {
+        display: flex;
+        align-items: center;
+
+        li {
+            margin: 0 .3vw;
+            font-size: 1vw;
+        }
+    }
+
+    a {
+        img {
+            background-color: $blue;
+            border-radius: 1vw;
+            width: 1.4vw;
+        }
+    }
+
+    @media screen and (max-width:"480px") {
+        padding: .7rem 4vw;
+
+        .bottom {
+
+            li {
+                margin: 0 .3rem;
+                font-size: 1rem;
+            }
+        }
+
+        a {
+            img {
+                background-color: $blue;
+                border-radius: 1rem;
+                width: 1.4rem;
+            }
+        }
+
+    }
+}

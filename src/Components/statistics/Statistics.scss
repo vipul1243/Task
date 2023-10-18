@@ -1,0 +1,63 @@
+$theme-color: #202C45;
+
+.statistics {
+    display: flex;
+    background-color: $theme-color;
+    justify-content: space-between;
+    color: #fff;
+    padding: 5vw 6vw;
+
+    .st-card {
+        display: flex;
+
+        img {
+            margin: 0 1vw;
+            width: 3.5vw;
+            height: 3.5vw;
+        }
+
+        .stats {
+            font-family: 'Poppins';
+
+            h1 {
+                font-weight: 700;
+                font-size: 1.7vw;
+                padding-bottom: 5px;
+            }
+
+            p {
+                font-weight: 400;
+                letter-spacing: .7px;
+                font-size: 1.1vw;
+            }
+        }
+    }
+
+    @media screen and (max-width:"480px") {
+        flex-direction: column;
+        padding: 5vw 6vw;
+
+        .st-card {
+            display: flex;
+            margin: 1rem 0;
+
+            img {
+                margin-right: 1rem;
+                width: 3.5rem;
+                height: 3.5rem;
+            }
+
+            .stats {
+                h1 {
+                    font-size: 2rem;
+                    padding-bottom: 5px;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+
+    }
+}

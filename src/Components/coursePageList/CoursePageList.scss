@@ -1,0 +1,53 @@
+$theme-color: #202C45;
+$nav-bg: #24497c;
+$blue: #2D8EFF;
+$light-bg: #EEE;
+
+.course-list {
+
+    .course-links {
+        padding: 1vw 0;
+
+        .course-link {
+            font-size: 1vw;
+            padding: .8vw;
+            margin: 0.6vw 0;
+            background-color: $light-bg;
+            width: 17vw;
+
+            a {
+                color: #707070;
+            }
+        }
+
+        .active {
+            background-color: $theme-color;
+            border-right: 0.3vw solid $blue;
+            width: 17.3vw;
+
+            a {
+                color: #fff;
+            }
+        }
+    }
+
+    @media screen and (max-width:480px) {
+        .course-links {
+
+            .course-link {
+                font-size: 1rem;
+                padding: .8rem;
+                margin: 0.6rem 0;
+                width: unset;
+            }
+
+            .active {
+                border-right: 1vw solid $blue;
+                a {
+                    color: #fff;
+                }
+            }
+        }
+
+    }
+}

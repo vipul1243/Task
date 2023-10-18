@@ -1,0 +1,58 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+.videos-section {
+    background-color: #F7F7F7;
+    padding: 6vw;
+
+    .top-heading {
+        display: flex;
+        padding-bottom: 2vw;
+        justify-content: space-between;
+
+        h1 {
+            font-weight: 400;
+            font-size: 1.7vw;
+
+            span {
+                color: $blue;
+            }
+        }
+
+        button {
+            background: $theme-color;
+            color: #fff;
+            padding: .6vw .8vw;
+            font-size: 1vw;
+        }
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;       
+    }
+    
+    @media screen and (max-width:"480px") {
+            padding: 6vw;
+            .top-heading {
+                padding-bottom: 2vw;
+        
+                h1 {
+                    font-size: 1.7rem;
+                }
+        
+                button {
+                    padding: .6vw .8vw;
+                    font-size: 1rem;
+                }
+            }
+        
+            .cards {
+                flex-direction: column;                
+            }
+        
+        
+    }
+}

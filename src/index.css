@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial;
+  color: inherit;
+  
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+.under-bar::after{
+  content: "";
+  height: .2vw;
+  background-color: #2D8EFF;
+  display: flex;
+  width: 4vw;
+  margin-top: .7vw;
+}
+

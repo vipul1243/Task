@@ -1,0 +1,138 @@
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+
+$blue: #2D8EFF;
+$theme-color: #202C45;
+$light-text: #AAA8A8;
+$text: #646262;
+
+.course-section {
+    background-color: #F7F7F7;
+    ;
+    padding: 6vw;
+
+    .top-heading {
+        display: flex;
+        padding-bottom: 2vw;
+        justify-content: space-between;
+
+        h1 {
+            font-weight: 400;
+            font-size: 1.7vw;
+
+            span {
+                color: $blue;
+            }
+        }
+
+        button {
+            background: $theme-color;
+            color: #fff;
+            padding: .6vw .8vw;
+            font-size: 1vw;
+        }
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+
+        .course-card {
+            background: #fff;
+            position: relative;
+            width: 19vw;
+
+            .price {
+                position: absolute;
+                right: 0;
+                color: white;
+                background: rgba(0, 0, 0, 0.6);
+                padding: 5px 9px;
+                border-left: .3vw solid $blue;
+                font-size: 1.1vw;
+            }
+
+            img {
+                width: 19vw;
+            }
+
+            div {
+                padding: 1vw;
+
+                h2 {
+                    font-weight: 400;
+                    font-size: 1.3vw;
+                    padding: .7vw 0;
+                }
+
+                p {
+                    font-size: 1.1vw;
+                    color: #9A9696;
+                }
+            }
+
+            button {
+                background: $theme-color;
+                color: #fff;
+                padding: .4vw .6vw;
+                font-size: .8vw;
+                margin: 1vw;
+            }
+        }
+    }
+
+    //---------------------- Media queries ------------------------------
+    @media screen and (max-width:"480px") {
+
+        .top-heading {
+            padding-bottom: 1rem;
+
+            h1 {
+                font-size: 1.5rem;
+            }
+
+            button {
+                padding: .6vw 2vw;
+                font-size: 1.2rem;
+            }
+        }
+
+        .cards {
+            flex-direction: column;
+
+            .course-card {
+                width: unset;
+                margin: 1rem 0;
+
+                .price {
+                border-left: .8vw solid $blue;
+                font-size: 1rem;
+                }
+
+                img {
+                    width: 88vw;
+                }
+
+                div {
+
+                    h2 {
+                        font-size: 1.3rem;
+                    }
+
+                    p {
+                        font-size: 1.1rem;
+                    }
+                }
+
+                button {
+                    font-size: 1.2rem;
+                    margin: 1rem 1vw;
+                }
+            }
+        }
+    }
+
+}
